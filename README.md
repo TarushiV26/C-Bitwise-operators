@@ -12,7 +12,7 @@ Bitwise operators perform operations on the binary representation of integers.
 | Operator | Description                                                             | Example Result                        |
 |----------|-------------------------------------------------------------------------|----------------------------------------|
 | `&`      | AND: Copies bit if it exists in both operands                          | `A & B` → `12 (00001100)`              |
-| `|`      | OR: Copies bit if it exists in either operand                          | `A | B` → `61 (00111101)`              |
+| '|'     | OR: Copies bit if it exists in either operand                          | `A | B` → `61 (00111101)`              |
 | `^`      | XOR: Copies bit if it exists in one operand but not both               | `A ^ B` → `49 (00110001)`              |
 | `~`      | One's Complement: Flips all bits (unary operator)                      | `~A` → `-61 (in 2's complement)`       |
 | `<<`     | Left Shift: Shifts bits to the left                                    | `A << 2` → `240 (11110000)`            |
